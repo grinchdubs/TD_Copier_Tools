@@ -26,7 +26,7 @@ Two powerful utilities for copying parameters and operators in TouchDesigner.
 4. Optional: Set Pagefilter (blank = all pages)
 5. Click "Copy Parameters" button
 
-**OperatorCopier Usage:**
+**OperatorCopier**
 1. Set Sourceop (drag & drop operator to copy)
 2. Set Target 1-10 (drag & drop destination containers)
    - Only fill the ones you need, empties are skipped
@@ -57,13 +57,13 @@ Copies one operator to multiple containers in one click.
 
 Each tool is fully self-contained with its own Python module:
 
-**ParameterCopier:**
+**ParameterCopier**
 - copy_logic (textDAT) - Main execution logic
 - param_exec (parameterexecuteDAT) - Button handler
 - copy_custom_parameters (textDAT) - Embedded Python module
 - info (textDAT) - Help text
 
-**OperatorCopier:**
+**OperatorCopier**
 - copy_logic (textDAT) - Main execution logic
 - param_exec (parameterexecuteDAT) - Button handler
 - copy_operator_to_containers (textDAT) - Embedded Python module
