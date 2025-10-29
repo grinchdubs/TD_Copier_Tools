@@ -1,5 +1,7 @@
 # TD Copier Tools Package
 
+![](https://raw.githubusercontent.com/grinchdubs/grnch.xyz_photos/refs/heads/main/TD_Tools/Screenshot%202025-10-29%20005020.png)
+
 Two powerful utilities for copying parameters and operators in TouchDesigner.
 
 ## Features:
