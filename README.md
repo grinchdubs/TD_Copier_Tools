@@ -4,14 +4,14 @@ Two powerful utilities for copying parameters and operators in TouchDesigner.
 
 ## Features:
 
-**ParameterCopier:**
+**ParameterCopier**
 - 1:1 accurate parameter copying
 - Preserves parameter order
 - Copies all parameter types
 - Handles expressions and binds
 - Replace or skip existing parameters
 
-**OperatorCopier:**
+**OperatorCopier**
 - Batch copy to up to 10 containers
 - Optional renaming
 - Replace or skip existing operators
