@@ -71,8 +71,6 @@ Each tool is fully self-contained with its own Python module:
 
 All Python modules are embedded inside their respective tools, making the .tox completely self-contained with no external dependencies.
 
-## Version: 1.0
-## Author: GRNCH
-## License: Open Source
-
----
+#### Version: 1.0
+#### Author: GRNCH
+#### License: None
