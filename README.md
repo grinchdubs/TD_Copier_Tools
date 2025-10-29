@@ -1,11 +1,6 @@
 # TD Copier Tools Package
 
-Two powerful utilities for copying in TouchDesigner.
-
-## Quick Start - Use From Package Level!
-
-You can use both tools directly from the CopierTools component without going inside:
-
+Two powerful utilities for copying parameters and operators in TouchDesigner.
 
 ## Features:
 
@@ -18,22 +13,25 @@ You can use both tools directly from the CopierTools component without going ins
 
 **OperatorCopier:**
 - Batch copy to up to 10 containers
-- Drag & drop interface
 - Optional renaming
 - Replace or skip existing operators
 - Progress tracking
 
-**Parameter Copier Page:**
-1. Set Pcsourceop and Pctargetop
-2. Toggle Pcincludevalues
-3. Optional: Set Pcpagefilter
-4. Click "Copy Parameters" button
+## Usage:
 
-**Operator Copier Page:**
-1. Set Ocsourceop
-2. Set Octarget1-10 (only set the ones you need)
-3. Optional: Set Occustomname
-4. Toggle Ocreplace
+**ParameterCopier**
+1. Set Sourceop (drag & drop)
+2. Set Targetop (drag & drop)
+3. Toggle Includevalues (on = copy values)
+4. Optional: Set Pagefilter (blank = all pages)
+5. Click "Copy Parameters" button
+
+**OperatorCopier Usage:**
+1. Set Sourceop (drag & drop operator to copy)
+2. Set Target1-Target10 (drag & drop destination containers)
+   - Only fill the ones you need, empties are skipped
+3. Optional: Set Customname (blank = use source name)
+4. Toggle Replace (on = replace existing)
 5. Click "Copy to Containers" button
 
 The package-level parameters are **bound** to the internal tools, so they stay perfectly in sync!
@@ -49,23 +47,11 @@ Copies custom parameters between operators with full support for:
 - Menu items and parameter properties
 - Maintains parameter order in UI
 
-**Usage:**
-1. Set Sourceop (drag & drop)
-2. Set Targetop (drag & drop)
-3. Toggle Includevalues (on = copy values)
-4. Optional: Set Pagefilter (blank = all pages)
-5. Click "Copy Parameters" button
-
 ### 2. OperatorCopier
 Copies one operator to multiple containers in one click.
-
-**Usage:**
-1. Set Sourceop (drag & drop operator to copy)
-2. Set Target1-Target10 (drag & drop destination containers)
-   - Only fill the ones you need, empties are skipped
-3. Optional: Set Customname (blank = use source name)
-4. Toggle Replace (on = replace existing)
-5. Click "Copy to Containers" button
+- Copies 1 source to up to 10 target locations/containers
+- Option to change the operator name on copy
+- option to replace existing operator if there is one
 
 ## Internal Structure:
 
