@@ -28,9 +28,9 @@ Two powerful utilities for copying parameters and operators in TouchDesigner.
 
 **OperatorCopier Usage:**
 1. Set Sourceop (drag & drop operator to copy)
-2. Set Target1-Target10 (drag & drop destination containers)
+2. Set Target 1-10 (drag & drop destination containers)
    - Only fill the ones you need, empties are skipped
-3. Optional: Set Customname (blank = use source name)
+3. Optional: Set Custom Name (blank = use source name)
 4. Toggle Replace (on = replace existing)
 5. Click "Copy to Containers" button
 
